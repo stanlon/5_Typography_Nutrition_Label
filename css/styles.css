@@ -44,6 +44,10 @@ header h1 {
     height: 10px;
   }
 
+  .medium {
+    height: 5px;
+  }
+
   .large, .medium {
     background-color: black;
     border: 0;
