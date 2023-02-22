@@ -49,11 +49,6 @@ header h1 {
     border: 0;
   }
 
-  /* The rem unit stands for root em, and is relative to the font size of the html element which in this case is 16px. */
-  .small-text {
-    font-size: 0.85rem;     /* Calculates to be roughly 13.6px */
-  }
-
   .calories-info {
     display: flex;
     justify-content: space-between;
@@ -63,3 +58,16 @@ header h1 {
   .calories-info h2 {
     margin: 0;
   }
+
+  /* The rem unit stands for root em, and is relative to the font size of the html element which in this case is 16px. */
+  .small-text {
+    font-size: 0.85rem;     /* Calculates to be roughly 13.6px */
+  }
+
+  .left-container p {
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  
