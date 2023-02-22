@@ -54,6 +54,12 @@ header h1 {
     font-size: 0.85rem;     /* Calculates to be roughly 13.6px */
   }
 
+  .calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
   .calories-info h2 {
     margin: 0;
   }
