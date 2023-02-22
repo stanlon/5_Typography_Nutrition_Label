@@ -1,3 +1,9 @@
+/* By default, the browser includes the border and padding when determining an element's size. 
+To solve this, create a * selector and give it a box-sizing property of border-box. */
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 16px;
 }
